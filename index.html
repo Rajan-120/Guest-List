@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Guest List</title>
+</head>
+<body>
+    <center>
+<h3>Guest List</h3>
+<span>
+<input id="add_names" placeholder="Name of the Guest">
+<button onclick="show_names()">Submit</button> 
+</span>
+<hr>
+<div id="show_normal_names"></div>
+<hr>
+    <button id="button_align" onclick="align_names_horizontly()" style="display: none;">Align Horizontly</button> 
+    <br>
+    <div id="horizontly_aligned_names"></div>
+    <hr>
+        <button id="button_sort" onclick="sort_names()" style="display: none;">Sort</button>
+        <br>
+        <h3 id="heading_sorted_names" style="display: none;">Sorted Names</h3>
+        <div id="sorted_names"></div>
+        <hr>
+        <span>
+        <input id="search_input" placeholder="search">
+        <button onclick="find()">search</button>
+        </span>
+        <div id="founded_name"></div>
+    </center>
+</body>
+</html>

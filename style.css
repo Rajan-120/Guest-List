@@ -1,0 +1,21 @@
+html{
+    font-size: 20px;
+}
+button{
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+}
+button:hover{
+    cursor: pointer;
+}
+input{
+    width: 200px;
+    height: 25px;
+    font-size: 15px;
+}
+#button_align{
+    width: 130px;
+    height: 30px;
+    font-size: 15px; 
+}
